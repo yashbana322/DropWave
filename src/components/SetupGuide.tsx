@@ -12,6 +12,10 @@ const techStack = [
 
 const setupSteps = [
   {
+    title: "Install Prerequisites",
+    description: "Before running the setup, ensure you have downloaded and installed Node.js and Python on your system. These are required for the background server and the core engine to function."
+  },
+  {
     title: "Run the Installer",
     description: "Launch Dropwave_Setup.exe. The wizard uses an Inno Setup script to automatically download FFmpeg and yt-dlp from secure sources and configures your Windows PATH variables without manual intervention."
   },
@@ -176,7 +180,7 @@ export const SetupGuide = () => {
                       {setupSteps[activeStep].description}
                     </p>
                     
-                    {activeStep === 1 && (
+                    {activeStep === 2 && (
                       <motion.div 
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
