@@ -73,8 +73,7 @@ const DemoVariant1 = () => {
             className="mt-10 flex justify-center"
           >
             <a
-              href="/Dropwave_Setup.exe"
-              download="Dropwave_Setup.exe"
+              href="https://github.com/yashbana322/dropwave/raw/main/public/Dropwave_Setup.exe"
               className="inline-flex items-center gap-3 px-8 py-4 bg-white text-black font-bold text-lg rounded-full hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
